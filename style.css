@@ -1,0 +1,184 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #222222;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header (Project Title) */
+.header {
+    /* background: #067c5f;
+    color: white; */
+    background: #222222;
+    /* background: #007bff; */
+    /* background: #4D869C#7AB2B2#EEF7FF; */
+    /* background-color: #EEF5FF; */
+    /* color: white; */
+    /* color: #57A6A1#577B8D#344C64#240750; */
+    /* color: #161D6F; */
+    /* color: #2D336B; */
+    text-align: center;
+    padding: 15px;
+    font-size: 200px;
+    /* border-bottom: 2px solid #0056b3; */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: crimson;
+}
+
+/* Controls under header */
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background: #000000;
+    /* background: #fafafa; */
+    /* background: #F0F0F0; */
+    /* border-bottom: 2px solid #ddd; */
+    padding: 10px 20px;
+
+}
+
+
+.controls button,
+.controls select,
+.controls input {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+label {
+    /* background: #007bff; */
+    color: white;
+}
+
+.controls button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+}
+
+#newArray {
+    width: 120px;
+}
+
+
+.controls button:hover {
+    background: #0056b3;
+}
+
+/* #newArray {
+    background: #6e75e0;
+} */
+
+#start {
+    background-color: #66b644;
+    color: white;
+}
+
+#reset {
+    background-color: #dd4646;
+}
+
+#Comparison,
+#Swaping {
+    cursor: pointer;
+}
+
+/* Visualization area */
+.visualizer {
+    flex: 1;
+    /* background: #FFF2F2; */
+    /* background: #e6efe2; */
+    /* background: linear-gradient(180deg, #ffe4e1, #e0fff5, #fffacb); */
+    /* background: white; */
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.visualizer {
+    /* Soft Blue to Aqua */
+    /* background: linear-gradient(to top, #a1c4fd, #c2e9fb); */
+
+    /* Peach to Pink */
+    /* background: linear-gradient(to top, #fbc2eb, #a6c1ee); */
+
+    /* Light Green to Mint */
+    /* background: linear-gradient(to top, #d4fc79, #96e6a1); */
+
+    /* Sky Blue to Violet */
+    /* background: linear-gradient(to top, #89f7fe, #66a6ff); */
+
+    /* Light Orange to Yellow */
+    /* background: linear-gradient(to top, #f6d365, #fda085); */
+
+    /* Pastel Purple to Blue */
+    /* background: linear-gradient(to top, #a18cd1, #fbc2eb); */
+
+    /* Very Soft Gray to White */
+    /* background: linear-gradient(to top, #fdfbfb, #ebedee); */
+
+    /* Pastel Rainbow */
+    /* background: linear-gradient(135deg, #fbc2eb, #a6c1ee, #c2e9fb, #d4fc79, #96e6a1); */
+
+    /* Candy Sky */
+    /* background: linear-gradient(135deg, #ffecd2, #fcb69f, #ff9a9e, #fad0c4, #fbc2eb); */
+
+    /* Ocean Breeze */
+    /* background: linear-gradient(135deg, #a1c4fd, #c2e9fb, #89f7fe, #66a6ff, #d4fc79); */
+
+    /* Aurora Light */
+    /* background: linear-gradient(135deg, #f6d365, #fda085, #fbc2eb, #a1c4fd, #c2e9fb); */
+
+    /* Dreamy Pastel */
+    /* background: linear-gradient(135deg, #fdfbfb, #ebedee, #e0c3fc, #8ec5fc, #cfd9df); */
+
+
+    /* Lemon Yellow to Cream */
+    /* background: linear-gradient(to top, #fffbd5, #b20a2c); */
+
+    /* Soft Pink to Lavender */
+    /* background: linear-gradient(to top, #fddb92, #d1fdff); */
+
+    /* Pale Mint to Sky Blue */
+    /* background: linear-gradient(to top, #a1ffce, #faffd1); */
+
+    /* Peach Cream to Light Yellow */
+    /* background: linear-gradient(to top, #f6d365, #fda085); */
+
+    /* Baby Blue to Soft Pink */
+    /* background: linear-gradient(to top, #a1c4fd, #fbc2eb); */
+
+    /* Coral Peach to Pastel Yellow */
+    /* background: linear-gradient(to top, #ffecd2, #fcb69f); */
+
+    /* Pale Orange to Soft Peach */
+    /* background: linear-gradient(to top, #ffdde1, #ee9ca7); */
+
+    /* Cloud White to Light Blue */
+    /* background: linear-gradient(to top, #e0eafc, #cfdef3); */
+
+    /* Aqua Green to Soft Teal */
+    /* background: linear-gradient(to top, #d4fc79, #96e6a1); */
+
+    /* Light Lavender to Blush Pink */
+    background: linear-gradient(to top, #F7A5A5, #FFDBB6);
+
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header / Project Title -->
+    <header class="header">
+        <h1>Sorting Visualizer</h1>
+    </header>
+
+    <!-- Controls -->
+    <div class="controls">
+        <label for="Array size">Select Size</label>
+        <select id="arraySize">
+            <option disabled selected="disabled">Select Size</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="200">200</option>
+        </select>
+
+        <button id="newArray">Generate Array</button>
+
+        <label for="algorithm">Choose Sorting:</label>
+        <select id="algorithm">
+            <option value="Select Algorithm" disabled selected>Select Algorithm</option>
+            <option value="Bubble Sort">Bubble Sort</option>
+            <option value="Selection Sort">Selection Sort</option>
+            <option value="Insertion Sort">Insertion Sort</option>
+            <option value="Merge Sort">Merge Sort</option>
+            <option value="Quick Sort">Quick Sort</option>
+        </select>
+
+        <label for="speed">Speed Adjust:</label>
+        <input type="range" id="speed" min="1" max="5" step="1">
+
+        <button id="start">Start</button>
+        <button id="reset">Reset</button>
+
+        <!-- <button  id="Comparison" disabled>Comparison</button>
+        <button  id="Swaping" disabled>Swaping</button> -->
+    </div>
+
+    <!-- Visualization Area -->
+    <div class="visualizer" id="visualizer">
+        <!-- Bars will be generated dynamically here -->
+    </div>
+
+
+
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
