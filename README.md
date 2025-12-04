@@ -1,6 +1,6 @@
 # 📊 Sorting Visualizer  
 
-**Live Demo:** [Sorting Visualizer](link)
+**Live Demo:** [Sorting Visualizer](https://sorting-visualizer-pi-six.vercel.app/)
 
 An interactive and visually engaging **Sorting Algorithm Visualizer** built with **HTML, CSS, and JavaScript**.  
 This project lets you watch how popular sorting algorithms work step by step with smooth animations and colorful bar transitions.  
